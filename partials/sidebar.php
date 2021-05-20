@@ -19,7 +19,7 @@
 				<?php continue; ?>
 			<?php endif ?>
 			<div class="sidebar__item">
-				<?php include('themes/cosmo/widgets/'.$widget['isi']) ?>
+				<?php include('themes/eclipse/widgets/'.$widget['isi']) ?>
 			</div>
 			<?php elseif($widget['jenis_widget'] == 2) : ?>
 				<div class="sidebar__item">
