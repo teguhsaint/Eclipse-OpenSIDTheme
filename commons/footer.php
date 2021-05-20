@@ -6,7 +6,7 @@
 <footer class="footer">
 	<div class="footer__content">
 		<div class="footer__copyright">
-			<span>Hak cipta &copy; <?= date('Y') ?> - <a href="https://kaptenmods.com" target="_blank"><strong>eclipse<?= THEME_VERSION ?></strong></a> | <a href="https://github.com/opensid/opensid/"><strong>OpenSID <?= ambilVersi() ?></strong></a></span>
+			<span>Hak cipta &copy; <?= date('Y') ?> - <a href="https://kaptenmods.com" target="_blank"><strong>eclipse <?= THEME_VERSION ?></strong></a> | <a href="https://github.com/opensid/opensid/"><strong>OpenSID <?= ambilVersi() ?></strong></a></span>
 		</div>
 		
 	</div>
