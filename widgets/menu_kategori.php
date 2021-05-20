@@ -7,7 +7,7 @@
 			
 			<?php foreach($menu_kiri as $data): ?>
 				
-<div  style="width:  calc(40%)">
+<div >
 				<a style="width: 100%; display: block" href="<?= site_url("artikel/kategori/$data[slug]"); ?>"><?= $data['kategori']; ?> <i class="fal fa-bookmark" style="float: right" ></i> </a>
 					<?php if(count($data['submenu']) > 0): ?>
 						
