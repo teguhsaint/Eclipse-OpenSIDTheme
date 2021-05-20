@@ -3121,6 +3121,7 @@ display: none;
       }
 
 .sidebar__item .box .nav.nav-tabs li.active {
+    color: red;
           margin-bottom: -2px;
           border-top-width: 1px;
           border-left-width: 1px;
@@ -3130,6 +3131,7 @@ display: none;
           --bg-opacity: 1;
           background-color: #fff;
           background-color: rgba(255, 255, 255, var(--bg-opacity));
+
         }
 
 .sidebar__item .box .nav.nav-tabs li a {
