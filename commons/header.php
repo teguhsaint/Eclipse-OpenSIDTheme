@@ -48,10 +48,14 @@
 .contenth h3,
 .contenth p {margin: 0;}
 </style>
-<header class="header">
-	<div class="header__group gradcolor" style="box-shadow: 0 10px 10px #0000003d">
 
-		<button class="button button--menu"><i class="fa fa-bars"></i> <span></span></button>
+
+<header class="header"> 
+
+
+
+<?php $this->load->view($folder_themes .'/commons/nav') ?>
+<!-- 
 	<div class="d-flex justify-content-end hiddendesktop" style="width: 82%" >
 
 		<ul class="social-media">
@@ -67,7 +71,8 @@
 		</ul>
 
 	</div>
-	</div>
-	<?php $this->load->view($folder_themes .'/commons/nav') ?>
+	 -->
 
+	</div> 
+	
 </header>
