@@ -9,7 +9,7 @@
 <body>
 
 	<?php $this->load->view($folder_themes .'/commons/header') ?>
-	<!-- <?php $this->load->view($folder_themes .'/partials/newsticker') ?> -->
+ <?php $this->load->view($folder_themes .'/partials/newsticker') ?> 
 	<section class="main-wrapper">
 		<main class="contents container" style="width: 100%">
 			<section class="content__article" id="status-idm">
