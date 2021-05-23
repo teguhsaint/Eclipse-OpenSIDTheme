@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon text-light"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+      <ul class="navbar-nav mt-auto mb-2 mb-lg-0" >
 		<?php if(menu_atas) : ?>
 			<li class="nav-item">
 				<div class="hiddendesktop mb-4" style="width:100%; margin-top: 20px;">
