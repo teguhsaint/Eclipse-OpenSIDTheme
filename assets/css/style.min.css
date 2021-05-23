@@ -58,7 +58,9 @@ hr {
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
-
+.col-lgs-3{
+  width: 100%!important;
+}
 
 .container > .box-info > .col-md-4 {
   width: 100% !important;

@@ -156,7 +156,7 @@ $(document).ready(function () {
 							</div>
 						<?php endif; ?>
 						<div class="row">
-							<div class="col-lg-3 col-xs-6 status-idm-kiri">
+							<div class="col-lgs-3 col-xs-6 status-idm-kiri">
 								<div class="small-box bg-primary">
 									<div class="inner">
 										<h3><?= number_format($idm->SUMMARIES->SKOR_SAAT_INI, 4) ?></sup></h3>
@@ -167,7 +167,7 @@ $(document).ready(function () {
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 col-xs-6 status-idm-kiri status-idm-kanan">
+							<div class="col-lgs-3 col-xs-6 status-idm-kiri status-idm-kanan">
 								<div class="small-box bg-warning">
 									<div class="inner">
 										<h3><?= $idm->SUMMARIES->STATUS ?><sup style="font-size: 20px"></sup></h3>
@@ -178,7 +178,7 @@ $(document).ready(function () {
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 col-xs-6 status-idm-kiri status-idm-kanan">
+							<div class="col-lgs-3 col-xs-6 status-idm-kiri status-idm-kanan">
 								<div class="small-box bg-success">
 									<div class="inner">
 										<h3><?= $idm->SUMMARIES->TARGET_STATUS ?><sup style="font-size: 20px"></sup></h3>
@@ -189,7 +189,7 @@ $(document).ready(function () {
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 col-xs-6 status-idm-kanan">
+							<div class="col-lgs-3 col-xs-6 status-idm-kanan">
 								<div class="small-box bg-danger">
 									<div class="inner">
 										<h3><?= number_format($idm->SUMMARIES->SKOR_MINIMAL, 4) ?><sup style="font-size: 20px"></sup></h2>
