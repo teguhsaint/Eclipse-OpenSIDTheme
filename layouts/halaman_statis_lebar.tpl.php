@@ -6,14 +6,14 @@
 	<?php $this->load->view($folder_themes . '/commons/meta') ?>
 	<?php $this->load->view($folder_themes . '/commons/source_css') ?>
 </head>
-<body class="bg-white">
+<body >
 
 	<?php $this->load->view($folder_themes .'/commons/header') ?>
  <?php $this->load->view($folder_themes .'/partials/newsticker') ?> 
 </br>
-</br>
+
 	<section class="main-wrapper" style="width: 100%; margin: auto;" >
-		<main class="contents"style="width: 100%; margin: auto;"  >
+		<main class="contents bg-white"style="width: 98%; padding: 10px; margin: auto;"  >
 			<section class="content__article" id="status-idm" style="max-width: 100%!important; margin: auto;" >
 				<?php $this->load->view($folder_themes . '/partials/idm.php')?>
 			</section>

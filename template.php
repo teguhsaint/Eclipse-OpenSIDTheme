@@ -16,17 +16,12 @@
 		<?php $this->load->view($folder_themes .'/commons/404') ?>
 		<?php else : ?>
 			<?php $this->load->view($folder_themes .'/commons/header') ?>
-			<?php /* $this->load->view($folder_themes .'/partials/newsticker') */?> 
+		
 
-
-
-<!-- <div class="container-fluid mb-4" style="padding: 0px;">
-	<?php $this->load->view($folder_themes .'/partials/slider.php') ?>
-</div>  -->
 		<section class="main-wrapper">
 				
 				<main class="content">
-					
+			
 					<?php $this->load->view($folder_themes .'/layouts/beranda.tpl.php') ?>
 			
 				</main>

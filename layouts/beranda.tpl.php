@@ -14,12 +14,12 @@
 
 <section id="news-list" >
 
-<div class="container mb-" style="margin-top: -16px;">
+<div class="container" style="margin-top: -16px;">
 	
 <div class="row ">
 <div class="col">
 
-		<?php
+<?php
 		$this->load->view($folder_themes .'/partials/slider');
 	
 ?>

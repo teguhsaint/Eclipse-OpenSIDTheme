@@ -1,6 +1,6 @@
 <?php  if(!defined('BASEPATH')) exit('No direct script access allowed'); ?>
 
-<!-- <?php if($teks_berjalan) : ?>
+ <?php if($teks_berjalan) : ?>
 	<div class="newsticker" style="padding-bottom: 0">
 		<div class="newsticker__label">
 			<i class="fa fa-bullhorn"></i>
@@ -17,4 +17,4 @@
 			<?php endforeach ?>
 		</marquee>
 	</div>
-<?php endif ?> -->
+<?php endif ?>
